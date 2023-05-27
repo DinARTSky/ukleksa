@@ -17,58 +17,132 @@
 <body class="body no-js">
   <!-- хедер сверхним меню и логотипом -->
 
-<header class="header">
-  <nav class="navigation container">
-    <button class="navigation__toggle" type="button">
-      <span class="visually-hidden">Открыть/Закрыть меню</span>
-    </button>
-    <div class="navigation__logo-container">
-      <a class="logo" href="index.html" aria-current="page">
-        <picture>
-          <source media="(min-width: 1150px)" srcset="img/svg/logo-desktop.svg">
-          <source media="(min-width: 768px)" srcset="img/svg/logo-tablet.svg">
-          <img class="logo__image" src="img/svg/logo-mobile.svg" alt="логотип" width="86" height="35">
-        </picture>
-      </a>
+  <header class="header">
+    <nav class="navigation container">
+      <button class="navigation__toggle" type="button">
+        <span class="visually-hidden">Открыть/Закрыть меню</span>
+      </button>
+      <div class="navigation__logo-container">
+        <a class="logo" href="index.html" aria-current="page">
+          <picture>
+            <source media="(min-width: 1150px)" srcset="img/svg/logo-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/svg/logo-tablet.svg">
+            <img class="logo__image" src="img/svg/logo-mobile.svg" alt="логотип" width="86" height="35">
+          </picture>
+        </a>
+      </div>
+      <ul class="navigation__list navigation__list--main list-reset">
+        <li class="navigation__item">
+          <a class="navigation__link" href="catalog.html">О компании</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="form.html">Услуги</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="form.html">Контакты</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="form.html">+79123984225</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Секция презентация-->
+  <section class="presentation container">
+    <div class="presentation__text">
+      <h2 class="presentation__title">Юридическая компания ЛЕКСА</h2>
+      <p class="presentation__description">На страже Ваших интересов</p>
+      <div class="presentation__call call">
+        <h2 class="call__title">Позвоните для записи на консультацию</h2>
+        <a call__button button>Позвонить</a>
+      </div>
     </div>
-    <ul class="navigation__list navigation__list--main list-reset">
-      <li class="navigation__item">
-        <a class="navigation__link" href="catalog.html">О компании</a>
+    <div class="presentation__image"></div>
+  </section>
+
+  <!--Секция О нас-->
+
+  <section class="about-us container">
+    <h2 class="about-us__title">О компании</h2>
+    <div class="about-us__container">
+      <div class="about-us__text">
+        <p class="about-us__paragraph">Генеральный директор компании ООО Юридическая компания "ЛЕКСА" Ташбулатова Земфира Анасовна. Опыт работы с 2001 года. Юридическая компания "ЛЕКСА" оказывает качественные юридические услуги для юридических и физических лиц.</p>
+        <p class="about-us__paragraph">Основная задача - защита интересов клиента с максимальным результатом и в кратчайшие сроки. Наша работа строится на индивидуальном подходе к клиенту, честности, пунктуальности, доверии и уважительности в отношениях.</p>
+        <p class="about-us__paragraph">С уважением генеральный директор З.А.Ташбулатова</p>
+      </div>
+      <div class="about-us__image"></div>
+    </div>
+    <ul class="about-us__sretificates sretificates">
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
       </li>
-      <li class="navigation__item">
-        <a class="navigation__link" href="form.html">Услуги</a>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
       </li>
-      <li class="navigation__item">
-        <a class="navigation__link" href="form.html">Контакты</a>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
       </li>
-      <li class="navigation__item">
-        <a class="navigation__link" href="form.html">+79123984225</a>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
+      </li>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
+      </li>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
+      </li>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
+      </li>
+      <li class="sretificates__item">
+        <img src="#" class="sertificates__image">
       </li>
     </ul>
-  </nav>
-</header>
+  </section>
 
-<!--Секция презентация-->
-<section class="presentation">
-  <div class="presentation__text">
-    <h2 class="presentation__title">Юридическая компания ЛЕКСА</h2>
-    <p class="presentation__description">На страже Ваших интересов</p>
-    <div class="presentation__call call">
-      <h2 class="call__title">Позвоните для записи на консультацию</h2>
-      <a call__button button>Позвонить</a>
+  <!--Сецкция как мы работаем-->
+  <section class="how-work container">
+    <h2 class="how-work__title">Как мы работаем</h2>
+    <ul class="how-work__list">
+      <li class="how-work__item"></li>
+      <li class="how-work__item"></li>
+      <li class="how-work__item"></li>
+      <li class="how-work__item"></li>
+    </ul>
+  </section>
+
+  <section class="services container">
+    <ul class="services__list">
+      <li class="services__item">
+        <h2 class="services__title">Услуги для юридических лиц</h2>
+        <a class="services__link">Подробнее</a>
+      </li>
+      <li class="services__item">
+        <h2 class="services__title">Услуги для физических лиц</h2>
+        <a class="services__link">Подробнее</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer contacts">
+    <h2 class="footer__title">Контакты</h2>
+    <div class="contacts-map">
+      <div class="contacts__contacts">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <span class="visually-hidden">Телефон</span>
+            <span class="contacts__phone">+79123984225</span>
+          </li>
+          <li class="contacts__item">
+            <span class="visually-hidden">Адрес</span>
+            <span class="contacts__phone">625000 Тюменская область, г. Тюмень, ул. 8 Марта, д.1 офис 501</span>
+          </li>
+        </ul>
+      </div>
+      <div class="contacts__map"></div>
     </div>
-  </div>
-  <div class="presentation__image"></div>
-</section>
-
-<!--Секция О нас-->
-
-
-
-
-
-
-
+  </footer>
 
   <header class="header">
     <!-- Класс navigation- -opened открывает мобильное меню -->
