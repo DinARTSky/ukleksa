@@ -1,0 +1,46 @@
+.developed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21px;
+  padding-bottom: 20px;
+  color: #000000;
+  text-decoration: none;
+
+  @media (min-width: $tablet-width) {
+    padding: 0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.developed__text {
+  display: inline-block;
+  margin-right: 25px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 18px;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 26px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 27px;
+  }
+}
+
+.developed svg {
+  fill: #63d1bb;
+}
+
+.developed:hover svg,
+.developed:focus svg {
+  fill: #46c1ae;
+}
+
+.developed:active svg {
+  opacity: 0.3;
+}

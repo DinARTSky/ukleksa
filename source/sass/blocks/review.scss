@@ -1,0 +1,50 @@
+.review__text {
+  margin: 0 0 33px;
+
+  @media (min-width: 768px) {
+    margin: 0 0 61px;
+
+    font-size: 17px;
+  }
+
+  @media (min-width: 1150px) {
+    margin: 0 0 44px;
+  }
+}
+
+.review__author {
+  @media (min-width: 768px) {
+    max-width: 500px;
+  }
+}
+
+.review__author-name {
+  display: block;
+  margin-bottom: 3px;
+
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+
+  @media (min-width: 768px) and (max-width: 1149px) {
+    font-size: 18px;
+  }
+}
+
+.review__author-instagram {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.review__item {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 22px;
+  }
+}
+
+.review__item--active {
+  display: block;
+}

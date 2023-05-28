@@ -1,0 +1,45 @@
+.footer {
+  background-color: #f1f1f1;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 51px;
+    padding-bottom: 57px;
+  }
+}
+
+.footer__logo {
+  display: none;
+  width: 102px;
+  height: 34px;
+  color: #000000;
+  cursor: pointer;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+
+  &:hover,
+  &:focus {
+    color: #46c1ae;
+
+    outline: none;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.footer__logo svg {
+  fill: currentColor;
+}
+
+.footer__container {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

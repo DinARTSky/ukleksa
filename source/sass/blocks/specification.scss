@@ -1,0 +1,16 @@
+.specification__item {
+  display: grid;
+  grid-template-columns: 98px 1fr;
+  line-height: 20px;
+  border-bottom: 1px solid #ececec;
+}
+
+.specification__parameter,
+.specification__property {
+  margin: 0;
+  padding: 7px 0 12px;
+
+  @media (min-width: 1150px) {
+    padding: 5px 0 14px;
+  }
+}

@@ -1,0 +1,12 @@
+.presentation {
+  display: grid;
+
+  background-color: #dceaf8;
+
+  grid-template-columns: 1fr 390px;
+}
+
+.presentation__image {
+  background-color: #93badf;
+  border-radius: 50%;
+}
