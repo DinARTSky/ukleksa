@@ -2,8 +2,17 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
+  padding-left: 48px;
+
 }
 
 .navigation__toggle {
   display: none;
+}
+
+.navigation__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #1e1d26;
 }

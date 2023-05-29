@@ -1,0 +1,14 @@
+.services {
+    padding-top: 75px;
+}
+
+.services__list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: none;
+    padding: 0;
+}
+
+.services__item {
+    background-color: #aec9e4;
+}

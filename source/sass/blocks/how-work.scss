@@ -1,0 +1,19 @@
+.how-work {
+    background-color: #ecebeb;
+    padding-top: 75px;
+    padding-bottom: 74px;
+}
+
+.how-work__list {
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 4%;
+}
+
+.how-work__item {
+    padding-top: 106px;
+    font-size: 18px;
+    line-height: 28px;
+}

@@ -1,0 +1,20 @@
+.about-us {
+    padding-top: 76px;
+    padding-bottom: 75px;
+}
+
+.about-us__container {
+    display: grid;
+    grid-template-columns: 640px 1fr;
+}
+
+.about-us__paragraph {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+    margin-bottom: 28px;
+}
+
+.about-us__text {
+    padding-top: 26px;
+}
