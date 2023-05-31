@@ -1,28 +1,60 @@
 .how-work {
-    background-color: #ecebeb;
-    padding-top: 75px;
-    padding-bottom: 74px;
+  padding-top: 75px;
+  padding-bottom: 74px;
+
+  background-color: #ecebeb;
 }
 
 .how-work__list {
-    padding: 0;
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    column-gap: 4%;
+  display: grid;
+  padding: 0;
+
+  list-style: none;
+  column-gap: 4%;
+
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .how-work__item {
-    padding-top: 106px;
-    font-size: 18px;
-    line-height: 28px;
-    padding-right: 42px;
-    
-    &--phone {
-        background-image: url("../img/svg/icon-phone.svg");
-        background-repeat: no-repeat;
-        background-position: top 20px left;
-        width: 100%;
-        height: 100%;
-    }
+  padding-top: 106px;
+  padding-right: 42px;
+
+  font-size: 18px;
+  line-height: 28px;
+
+  &--phone {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/svg/icon-phone.svg");
+    background-repeat: no-repeat;
+    background-position: top 20px left;
+  }
+
+  &--meet {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/svg/icon-meet.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  &--dogovor {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/svg/icon-dogovor.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+
+  &--protect {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../img/svg/icon-protect.svg");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
 }

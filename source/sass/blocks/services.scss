@@ -1,14 +1,28 @@
 .services {
-    padding-top: 75px;
+  padding-top: 75px;
 }
 
 .services__list {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+
+  list-style: none;
 }
 
 .services__item {
-    background-color: #aec9e4;
+  padding: 50px;
+
+  background-color: #aec9e4;
+}
+
+.services__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.services__link {
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
