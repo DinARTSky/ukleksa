@@ -30,16 +30,16 @@
 
           <ul class="navigation__list navigation__list--main list-reset">
             <li class="navigation__item">
-              <a class="navigation__link" href="catalog.html">О компании</a>
+              <a class="navigation__link" href="#about-us">О компании</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="form.html">Услуги</a>
+              <a class="navigation__link" href="#services">Услуги</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="form.html">Контакты</a>
+              <a class="navigation__link" href="#contacts">Контакты</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link" href="form.html">+79123984225</a>
+              <span class="navigation__phone">+79123984225</span>
             </li>
           </ul>
         </nav>
@@ -57,13 +57,15 @@
           <a class="call__button button">Позвонить</a>
         </div>
       </div>
-      <div class="presentation__image"></div>
+      <div class="presentation__image">
+        <img src="img/image-urid-uslugi.png" width="420" height="324" alt="картинка правосудия">
+      </div>
     </div>
   </section>
 
   <!--Секция О нас-->
 
-  <section class="about-us container">
+  <section class="about-us container" id="about-us">
     <h2 class="about-us__title title">О компании</h2>
     <div class="about-us__container">
       <div class="about-us__text">
@@ -71,7 +73,9 @@
         <p class="about-us__paragraph">Основная задача - защита интересов клиента с максимальным результатом&nbspи&nbspв&nbspкратчайшие сроки. Наша работа строится на индивидуальном подходе к клиенту, честности, пунктуальности, доверии и уважительности в отношениях.</p>
         <p class="about-us__paragraph">С уважением генеральный директор З.А.Ташбулатова</p>
       </div>
-      <div class="about-us__image"></div>
+      <div class="about-us__image">
+        <img src="img/femida.png" width="140" height="307" alt="картинка фемида">
+      </div>
     </div>
     <ul class="about-us__sretificates sertificates">
       <li class="sertificates__item">
@@ -119,31 +123,31 @@
     </div>
   </section>
 
-  <section class="services container">
+  <section class="services container" id="services">
     <h2 class="services__title title">Услуги</h2>
     <ul class="services__list list-reset">
       <li class="services__item">
         <h2 class="services__subtitle">Услуги для юридических лиц</h2>
-        <a class="services__link button">Подробнее</a>
+        <a class="services__link button" href="corporate.html">Подробнее</a>
       </li>
       <li class="services__item">
         <h2 class="services__subtitle">Услуги для физических лиц</h2>
-        <a class="services__link button">Подробнее</a>
+        <a class="services__link button" href="private.html">Подробнее</a>
       </li>
     </ul>
   </section>
 
-  <footer class="footer">
+  <footer class="footer" id="contacts">
     <section class="footer__contacts container contacts ">
       <h2 class="contacts__title title">Контакты</h2>
       <div class="contacts__map">
         <div class="contacts__contacts">
           <ul class="contacts__list list-reset">
-            <li class="contacts__item">
+            <li class="contacts__item contacts__item--call">
               <span class="visually-hidden">Телефон</span>
               <span class="contacts__phone">+79123984225</span>
             </li>
-            <li class="contacts__item">
+            <li class="contacts__item contacts__item--location">
               <span class="visually-hidden">Адрес</span>
               <span class="contacts__address">625000 Тюменская область, г.&nbspТюмень, ул. 8 Марта, д.1 офис 501</span>
             </li>
@@ -153,8 +157,8 @@
           <img src="img/map.jpg" class="sertificates__image" height="506" width="215" alt="Карта адреса">
         </div>
         <div class="footer__policy-page-up">
-          <a class="footer__page-up">
-            <span class="visually-hidden">кнопка перехода в начало страницы</span>
+          <a class="footer__page-up" href="index.html" aria-current="page">
+            <span class="visually-hidden">Вернуться на главную страницу</span>
           </a>
           <a class="footer__policy">Политика конфиденциальности</a>    
         </div>

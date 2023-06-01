@@ -10,12 +10,19 @@
 }
 
 .footer__page-up {
-  display: block;
-  width: 67px;
-  height: 67px;
-  border-radius: 50%;
-  background-color: #b97024;
-  margin-top: 10px;
+  text-decoration: none;
+  &::before {
+    content: "";
+    display: block;
+    width: 67px;
+    height: 67px;
+    border-radius: 50%;
+    background-color: #b97024;
+    background-image: url("../img/polygon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 10px;
+  }
 }
 
 .footer__policy {

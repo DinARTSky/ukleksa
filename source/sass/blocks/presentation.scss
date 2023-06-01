@@ -34,6 +34,13 @@
 }
 
 .presentation__image {
+  position: relative;
   background-color: #93badf;
   border-radius: 50%;
+
+  & img {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+  }
 }

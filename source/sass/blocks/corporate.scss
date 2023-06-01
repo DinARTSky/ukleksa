@@ -1,0 +1,49 @@
+.corporate__title {
+    width: 550px;
+    margin-bottom: 7px;
+}
+
+.corporate__subtitle {
+    color: #b97024;
+    font-size: 30px;
+    line-height: 47px;
+    font-weight: 700;
+}
+
+.corporate__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+    row-gap: 46px;
+    margin-top: 28px;
+}
+
+.corporate__item {
+    background-color: #aecae5;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 334px;
+}
+
+.corporate__description {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    
+}
+
+.corporate__button {
+    padding: 13px 10px;
+}
+
+.corporate__page-up {
+    font-size: 30px;
+    color: #b97024;
+    text-decoration: none;
+}
