@@ -1,9 +1,15 @@
 .services {
   padding-top: 75px;
+  padding-bottom: 98px;
+}
+
+.services__title {
+  margin-bottom: 34px;
 }
 
 .services__list {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 360px);
   justify-content: space-around;
   padding: 0;
 
@@ -11,18 +17,22 @@
 }
 
 .services__item {
-  padding: 50px;
-
+  // padding: 28px 60px;
+  padding-top: 30px;
+  padding-bottom: 43px;
   background-color: #aec9e4;
 }
 
 .services__subtitle {
   font-weight: 400;
   font-size: 18px;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 11px;
 }
 
 .services__link {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: 200px;
   margin: auto;
 }

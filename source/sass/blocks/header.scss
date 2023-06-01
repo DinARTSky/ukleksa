@@ -1,9 +1,12 @@
 .header {
-  display: grid;
   padding-top: 121px;
   padding-bottom: 137px;
 
   background-color: #dceaf8;
+}
 
+
+.header__wrapper {
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
