@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ЮК Лекса</title>
+  <link rel="preload" href="fonts/opensans.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/opensansbold.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico"> <!-- 32×32 -->
+  <link rel="icon" href="img/favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/favicons/apple.png"> <!-- 180×180 -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body no-js">
+  <!-- хедер сверхним меню и логотипом -->
+
+  <header class="header">
+    <div class="header__wrapper container">
+        <div class="navigation__logo-container">
+          <a class="logo" href="index.html" aria-current="page">ЮК ЛЕКСА</a>
+        </div>
+
+        <nav class="navigation">
+          <button class="navigation__toggle" type="button">
+            <span class="visually-hidden">Открыть/Закрыть меню</span>
+          </button>
+
+          <ul class="navigation__list navigation__list--main list-reset">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#about-us">О компании</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#services">Услуги</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#contacts">Контакты</a>
+            </li>
+            <li class="navigation__item">
+              <span class="navigation__phone">+79123984225</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <section class="private container">
+    <h1 class="private__title title">Услуги<br>для физических лиц</h1>
+
+    <ul class="private__list list-reset">
+        <li class="private__item">
+            <p class="private__description">Устные и письменные консультации</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Составление юридических заключений по жилищным, семейным, трудовым вопросам</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Оформление прав на имущество</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Защита прав потребителей, ДТП и прочее</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Составление всех видов договоров и соглашений (в том числе купли-продажи, аренды недвижимости и автомобилей)</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Составление претензий, исков, жалоб, иных процессуальных документов</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Представление интересов заказчика в судах всех инстанций по всем категориям дел</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+        <li class="private__item">
+            <p class="private__description">Иные юридические услуги</p>
+            <button class="private__button button">Оставить заявку</button>
+        </li>
+    </ul>
+  </section>
+  <footer class="container">
+    <a class="footer__page-up" href="index.html" aria-current="page">
+      <span class="corporate__page-up">Вернуться на главную страницу</span>
+    </a>
+  </footer>
+
+  <!-- Модальное окно -->
+  <div class="modal modal--close">
+    <div class="modal__container zayavka">
+      <h2 class="zayavka__title">Заявка</h2>
+      <p class="zayavka__text">Введите ваши данные:</p>
+
+      <form class="zayavka__form" action="#" method="post">
+        <div class="zayavka__container">
+          <div class="zayavka__item">
+            <label class="zayavka__label" for="name">Имя</label>
+            <input class="zayavka__input" id="name" type="text" name="name" placeholder="Введите Ваше имя" required>
+          </div>
+          <div class="zayavka__item">
+            <label class="zayavka__label" for="tel">Телефон</label>
+            <input class="zayavka__input" id="tel" type="tel" name="phone" placeholder="+7 ХХХ ХХХ ХХ ХХ*" required>
+          </div>
+        </div>
+        <button class="button size__submit" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>

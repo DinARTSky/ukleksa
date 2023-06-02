@@ -1,16 +1,4 @@
-.corporate__title {
-    width: 550px;
-    margin-bottom: 7px;
-}
-
-.corporate__subtitle {
-    color: #b97024;
-    font-size: 30px;
-    line-height: 47px;
-    font-weight: 700;
-}
-
-.corporate__list {
+.private__list {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     column-gap: 40px;
@@ -18,7 +6,7 @@
     margin-top: 28px;
 }
 
-.corporate__item {
+.private__item {
     background-color: #aecae5;
     padding-top: 20px;
     padding-left: 30px;
@@ -31,24 +19,18 @@
     height: 334px;
 }
 
-.corporate__description {
+.private__description {
     margin: 0;
     font-size: 18px;
     line-height: 28px;    
 }
 
-.corporate__button {
+.private__button {
     padding: 13px 10px;
-
+    
     &:hover {
         background-color: #93badf;
         background-image: none;
         color: #1e1d26;
     }
-}
-
-.corporate__page-up {
-    font-size: 30px;
-    color: #b97024;
-    text-decoration: none;
 }
