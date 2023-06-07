@@ -6,13 +6,13 @@
 }
 
 .how-work__list {
-  display: grid;
-  padding: 0;
-
-  list-style: none;
-  column-gap: 4%;
-
-  grid-template-columns: repeat(4, 1fr);
+  @media (min-width: 768px) {
+    display: grid;
+    padding: 0;
+    list-style: none;
+    column-gap: 4%;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .how-work__item {

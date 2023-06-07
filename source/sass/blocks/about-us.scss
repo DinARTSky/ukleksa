@@ -4,8 +4,10 @@
 }
 
 .about-us__container {
+  @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 640px 1fr;
+  }
 }
 
 .about-us__paragraph {
@@ -20,6 +22,6 @@
 }
 
 .about-us__image img{
-display: block;
-margin: auto;
+  display: block;
+  margin: auto;
 }

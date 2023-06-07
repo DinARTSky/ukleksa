@@ -1,10 +1,12 @@
 .contacts__map {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 
 .contacts__contacts {
-  padding-top: 27px;  
+  padding-top: 27px;
   padding-right: 210px;
   font-size: 18px;
   line-height: 28px;

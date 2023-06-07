@@ -1,29 +1,46 @@
 .presentation {
-  background-color: #dceaf8;  
+  background-color: #dceaf8;
   padding-bottom: 100px;
 }
 
 .presentation__wrapper {
-  display: grid;
-  grid-template-columns: 1fr 420px;
+  @media (min-width:768px) {
+    display: grid;
+    grid-template-columns: 1fr 420px;
+  }
 }
 
 .presentation__text {
-  padding-top: 15px;
+  padding-top: 50px;
+  @media (min-width:768px) {
+    padding-top: 15px;
+  }
 }
 
 .presentation__title {
-  font-size: 48px;
-  line-height: 74px;
-  font-weight: 700;
+  font-size: 38px;
+  line-height: 59px;
   margin: 0;
-  width: 650px;
-  padding-bottom: 56px;
+  margin-bottom: 30px;
+
+  @media (min-width:768px) {
+    font-size: 48px;
+    line-height: 74px;
+    font-weight: 700;
+    width: 650px;
+    padding-bottom: 56px;
+  }
 }
 
 .presentation__description {
-  font-size: 30px;
+  font-size: 22px;
   font-weight: 700;
+  width: 70%;
+  display: block;
+
+  @media (min-width:768px) {
+    font-size: 30px;
+  }
 }
 
 .presentation__call {
@@ -34,6 +51,8 @@
 }
 
 .presentation__image {
+  width: 200px;
+  height: 200px;
   position: relative;
   background-color: #93badf;
   border-radius: 50%;

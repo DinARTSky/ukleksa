@@ -1,8 +1,12 @@
 .header {
-  padding-top: 121px;
-  padding-bottom: 137px;
-
   background-color: #dceaf8;
+  padding-top: 30px;
+
+  @media (min-width:768px) {
+    padding-top: 121px;
+    padding-bottom: 137px;
+    background-color: #dceaf8;
+  }
 }
 
 
