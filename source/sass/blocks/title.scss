@@ -1,8 +1,12 @@
 .title {
-  margin: 0;
-
   font-weight: 700;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 74px;
   color: #b97024;
+  margin: 0;
+
+  @media (min-width:768px) {
+    font-size: 48px;
+}
+
 }
