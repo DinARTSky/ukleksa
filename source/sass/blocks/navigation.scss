@@ -9,15 +9,14 @@
   @media (min-width:768px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: flex-end;
     padding-left: 79px;
   }
 }
 
 .navigation__item {
-  @media (max-width:768px) {
-    margin-bottom: 15px;
-    margin-right: 38px;
+  @media (min-width:1150px) {
+    margin-left: 55px;
   }
 }
 
@@ -90,6 +89,9 @@
     font-size: 16px;
   }
 
+  @media (min-width: 1150px) {
+    font-size: 18px;
+  }
 }
 
 .navigation__phone {

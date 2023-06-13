@@ -1,14 +1,23 @@
 .how-work {
   padding-top: 80px;
   padding-bottom: 87px;
-
   background-color: #ecebeb;
+
+  @media (min-width: 1150px) {
+    padding-bottom: 108px;
+  }
 }
 
 .how-work__title {
   font-size: 35px;
   line-height: 56px;
   margin-bottom: 24px;
+
+  @media (min-width: 768px) {
+    font-size: 48px;
+    line-height: 74px;
+    margin-bottom: 12px;
+  }
 }
 
 .how-work__list {
@@ -29,6 +38,10 @@
   padding-top: 118px;
   line-height: 23px;
   background-size: 60px;
+
+  @media (min-width: 768px) {
+    padding-top: 111px;
+  }
 
   &--phone {
     width: 100%;

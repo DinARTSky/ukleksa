@@ -121,4 +121,26 @@
       <span class="corporate__page-up">Вернуться на главную страницу</span>
     </a>
   </footer>
+
+  <!-- Модальное окно -->
+  <div class="modal modal--close">
+    <div class="modal__container zayavka">
+      <h2 class="zayavka__title">Отправить заявку</h2>
+      <p class="zayavka__text">Введите ваши контактные данные:</p>
+
+      <form class="zayavka__form" action="#" method="post">
+        <div class="zayavka__container">
+          <div class="zayavka__item">
+            <label class="zayavka__label" for="name">Имя</label>
+            <input class="zayavka__input" type="text" name="name" id="name">
+
+            <label class="zayavka__label" for="phone">Номер телефона</label>
+            <input class="zayavka__input" type="tel" name="phone" id="phone" required>
+          </div>
+        </div>
+        <button class="button zayavka__submit" type="submit">Отправить</button>
+      </form>
+    </div>
+  </div>
+
 </body>

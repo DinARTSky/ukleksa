@@ -4,11 +4,25 @@
     line-height: 19px;
     width: 190px;
     display: block;
-    padding-bottom: 38px;
+    padding-bottom: 33px;
+
+    @media (min-width:768px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    @media (min-width:1150px) {
+      padding-bottom: 25px;
+    }
 }
 
 .call__button {
   padding: 15px 46px;
   font-size: 12px;
   text-decoration: none;
+
+  @media (min-width:768px) {
+    padding: 13px 51px;
+    font-size: 20px;
+  }
 }

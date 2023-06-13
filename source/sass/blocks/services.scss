@@ -1,17 +1,26 @@
 .services {
   padding-top: 75px;
   padding-bottom: 43px;
+
+  @media (min-width: 1150px) {
+    padding-top: 75px;
+    padding-bottom: 50px;
+  }
 }
 
 .services__title {
   margin-bottom: 18px;
+
+  @media (min-width: 1150px) {
+    margin-bottom: 31px;
+  }
 }
 
 .services__list {
   @media (min-width: 768px) {
-    display: grid;
-    grid-template-columns: repeat(2, 360px);
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
     padding: 0;
     list-style: none;
   }
@@ -19,10 +28,15 @@
 
 .services__item {
   // padding: 28px 60px;
+  width: 290px;
   padding-top: 26px;
   padding-bottom: 36px;
   background-color: #aec9e4;
   margin-bottom: 56px;
+
+  @media (min-width: 1150px) {
+    width: 340px;
+  }
 }
 
 .services__subtitle {

@@ -8,8 +8,12 @@
     flex-wrap: wrap;
     list-style: none;
     justify-content: space-between;
-    gap: 37px 5px;
+    row-gap: 10px;
     padding: 0;
+  }
+
+  @media (min-width: 1150px) {
+    row-gap: 39px ;
   }
 }
 
@@ -19,15 +23,24 @@
     height: 100px;
 }
 
+@media (max-width: 767px) {
   &:nth-child(3) {
     order: 2;
   }
+}
 
   @media (min-width: 768px) {
-    height: 175px;
+    height: 135px;
     &:nth-child(n+6) {
-        height: 192px;
+        height: 135px;
     }
+  }
+
+  @media (min-width: 1150px) {
+    height: 152px;
+    &:nth-child(n+6) {
+      height: 152px;
+  }
   }
 }
 

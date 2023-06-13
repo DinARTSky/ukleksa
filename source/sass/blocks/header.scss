@@ -3,9 +3,11 @@
   padding-top: 120px;
 
   @media (min-width:768px) {
-    padding-top: 116px;
     padding-bottom: 92px;
-    background-color: #dceaf8;
+  }
+
+  @media (min-width:768px) {
+    padding-bottom: 120px;
   }
 }
 
