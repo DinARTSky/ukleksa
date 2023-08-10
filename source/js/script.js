@@ -1,5 +1,7 @@
 const menuBtn = document.querySelector('.navigation__toggle');
 const menuNav = document.querySelector('.navigation');
+// const menuNavLink = document.querySelector('.navigation__link');
+var menuNavLinks = document.querySelectorAll('.navigation__link');
 
 if (menuBtn) {
   menuBtn.addEventListener('click', (evt) => {
@@ -7,6 +9,23 @@ if (menuBtn) {
     menuNav.classList.toggle('navigation--opened');
   });
 };
+
+for (let menuNavLink of menuNavLinks) {
+  menuNavLink.onclick = function () {
+    // evt.preventDefault();
+    menuNav.classList.remove('navigation--opened');
+  };
+}
+
+// console.log(menuNavLink);
+// for (let i = 0; i < menuNavLink.length; i++){
+//   if (menuNavLink[i]) {
+//     menuNavLink[i].addEventListener('click', (evt) => {
+//       evt.preventDefault();
+//       menuNav.classList.remove('navigation--opened');
+//     });
+//   };
+// }
 
 if (document.querySelector('.no-js')) {
   document.querySelector('.no-js').classList.remove('no-js');
@@ -24,3 +43,6 @@ if (btnModals) {
     })
   })
 };
+
+
+
