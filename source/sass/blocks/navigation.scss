@@ -30,8 +30,15 @@
     position: fixed;
   }
   @media (min-width:768px) {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: flex-end;
+
+  }
+
+  @media (min-width:1150px) {
+
+
     justify-content: flex-end;
     padding-left: 79px;
   }
@@ -109,7 +116,7 @@
   font-size: 18px;
   text-decoration: none;
   color: #1e1d26;
-  padding-right: 103px;
+
 
   &:hover {
     color: #1aeb6d;

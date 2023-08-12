@@ -1,3 +1,5 @@
+import { isEscapeKey } from "./util.js";
+
 const menuBtn = document.querySelector('.navigation__toggle');
 const menuNav = document.querySelector('.navigation');
 // const menuNavLink = document.querySelector('.navigation__link');
@@ -33,6 +35,8 @@ if (document.querySelector('.no-js')) {
 
 const btnModals = document.querySelectorAll('.button-order');
 const modal = document.querySelector('.modal');
+const modalButtonClose = document.querySelector('.modal__button-close');
+
 
 if (btnModals) {
   btnModals.forEach((item) => {
@@ -44,5 +48,15 @@ if (btnModals) {
   })
 };
 
+modalButtonClose.addEventListener('click', function () {
+  modal.classList.add('modal--close');
+});
+
+
+window.addEventListener('keydown', function () {
+  if (isEscapeKey) {
+    modal.classList.add('modal--close');
+  }
+});
 
 

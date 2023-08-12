@@ -1,8 +1,23 @@
 .button {
     color: #fcf4f4;
     background-color: #b97024;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     border-radius: 30px;
     padding: 13px 51px;
+
+    @media (min-width: 1300px) {
+      font-size: 20px;
+
+    }
+}
+
+.modal__button-close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  padding: 10px;
 }
